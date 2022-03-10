@@ -1,0 +1,4 @@
+node_modules/
+*.json
+pro1.*
+tailwind.config.js

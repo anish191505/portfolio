@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pro1.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .from-primary{
+          --tw-gradient-from: #1d99ac;
+          --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(34,211,234,0));
+
+        }
+
+        .to-secondary{
+            --tw-gradient-to: #309e76;
+        }
+
+        .servicesImagineHeight {
+            height: 220px;
+        }
+    </style>
+    <title>portfolio</title>
+</head>
+<body class="antialiased relative text-gray-600">
+
+    <div class=" absolute w-full min-h-screen" >
+        <!-- this div is for the image -->
+        <!--  use absolute to position an element outside the normal flow of the document, causing neighbouring element act as if the element doesnt exist  -->
+
+        <div class=" absolute top-0  object-cover w-full bg-cover h-1/2">
+            <!-- this object propert is used to set the image properly -->
+            <img class = "object-cover h-96 w-full object-top" src="nothing.jpg" alt="">
+
+        </div>
+
+        <div class = "absolute z-20 bottom-10 right-0 left-0 inline-flex space-x-20 justify-center font-bold uppercase tracking-wide text-gray-600">
+<!-- without right 0 and left only some is covered -->
+
+<!-- for fitting an image search (object fit) in tailwind css website then do according to it-->
+            <a href = "#services" class=" text-cyan-600">services</a>
+            <a href = "#work" class=" text-cyan-600">work</a>
+            <a href = "#contact" class=" text-cyan-600">contact</a>
+        </div>
+
+    </div>
+    
+
+
+<!-- second part starts from here -->
+
+
+       <div class = "relative z-10 flex min-h-screen h-auto justify-center items-center">
+            
+         <div class= "relative max-w-4xl">
+
+              <div class = "absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform-skew-y-6 sm:skew-y-0 sm:rotate-6 sm:rounded-lg">
+
+              </div>
+
+              <div class = "relative z-20 bg-white md:flex justify-between p-12 shadow-lg rounded-lg w-full max-w-4xl">
+                   
+                   <div class = "sm:flex flex-col justify-between -space-y-6 py-6 md:pr-10">
+
+                       <div class = ""> 
+                           
+                        <h2 class = "text-lg">Hello I am </h2>
+                        <h1 class = "pt-1 text-5xl font-bold text-gray-800">Anish Pandey</h1>
+
+                        <img src="IMG_20211025_144416.jpg"  class = "w-80 rounded-full ml-96 flex justify-between items-center border-6 border-white shadow-md pb-6" alt="">
+
+                        
+                    </div>    
+                    
+                    <p class = "text-xl leading-relaxed"> I Would like to introduced myself as a dreamer . Person having a dream to change
+                      NEPAL In technological field. HELLO Everyone ! It's me Anish Pandey currently studying Bachelol Of Engineering In Information Technology
+                      (BEIT) in Nepal College Of Information Technology(NCIT).</p>
+      
+                    
+                    
+
+                   </div>  
+
+              </div>
+
+         </div>
+
+       </div>
+
+                                 <!-- third part -->
+                                <!-- for services  -->
+        <section id= "services" class = "bg-gray-50 pt-20 px-8 pb-28">
+
+             <div class = "max-w-6xl mx-auto">
+
+                <div class = "text-center">
+
+                     <h1 class="text-6xl text-gray-800">Services
+
+                     </h1>
+
+                     <p class = "pt-2">Heres What I Offer</p>
+
+                </div>
+                   
+                  <div class = "mt-24 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-20">
+
+
+                     <!-- code for mobile applications  -->
+                     <!-- from here all the code are same for web applicatione and responsive designing just change the images and name -->
+
+                    <div class = "relative">
+
+                        
+                         
+                        <div class = "absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-0 sm:rotate-6 sm:rounded-lg">
+                                  
+
+                            </div>
+
+
+                            <div class = " relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12">
+                                   
+                           <img src="./mobile app.jpg" class=" rounded-t-md" alt="">
+
+                            <div class=" pb-10 px-6">
+
+                                <h2 class=" pt-3 font-bold text-2xl text-gray-800">Mobile applications</h2>
+
+                                <p class=" pt-3">In Mobile Applications Services, I offer developing apps for both IOS and Android Phones, tablets,
+                                  smartwatches and every form of wearable devices that run any kind of mobile operating system.
+                                </p>
+
+
+                            </div>
+
+                            </div>    
+
+                        
+
+                    </div>
+
+                             
+
+                    <!-- code for web applications -->
+
+                    <div class = "relative">
+
+                        
+                         
+                        <div class = "absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-0 sm:rotate-6 sm:rounded-lg">
+                                  
+
+                            </div>
+
+                            
+                            <div class = " relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12">
+                                   
+                           <img src="./web applications.png" class=" rounded-t-md" alt="">
+
+                            <div class=" pb-10 px-6">
+
+                                <h2 class=" pt-3 font-bold text-2xl text-gray-800">Web Apllications</h2>
+
+                                <p class=" pt-3">In the field of web services i can develop  fast and smooth mobile and desktop web applications
+                                            with proper cybersecurity as i am more good at frond end development.
+                                </p>
+
+
+                            </div>
+
+                            </div>    
+
+                        
+
+                    </div>
+                    
+
+                    <!-- code for responsive websites -->
+                        
+                    <div class = "relative">
+
+                        
+                         
+                        <div class = "absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-0 sm:rotate-6 sm:rounded-lg">
+                                  
+
+                            </div>
+
+                            
+                            <div class = " relative z-20 bg-white h-full rounded-md shadow-md px-10 py-12">
+                                   
+                           <img src="./Responsive websites.png" class=" rounded-t-md" alt="">
+
+                            <div class=" pb-10 px-6">
+
+                                <h2 class=" pt-3 font-bold text-2xl text-gray-800">Responsive Websites</h2>
+
+                                <p class=" pt-3">i have creating websites since i was 17. whether i is business or personal or 
+                                  e-commerce websites i can create all of them.
+                                </p>
+
+
+                            </div>
+
+                            </div>    
+
+                        
+
+                    </div>
+
+
+
+                  </div> 
+
+             </div>
+
+
+        </section>
+
+<!-- services parts end here -->
+
+                      <!-- work part starts from here -->
+          <section id = "work" class="py-20 px-8 ">
+              <!-- when we write this h1 and p comes 15% towards center -->
+
+                    <div class = "max-w-6xl mx-auto">
+                        <!-- 40% toward center -->
+
+                          <div class=" text-center">
+                              <!-- in the center -->
+                              <h1 class = "text-6xl font-bold text-gray-600">Work</h1>
+                              <p class = "pt-2 text-2xl">Here is my portfolio</p>
+
+
+                          </div>
+
+                          <div class =" grid mt-16 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14" >
+                              <!-- this line makes the gap between paragraph and photo -->
+
+
+                              <!-- below div can be copied  -->
+
+                              <div class = " bg-white rounded-md shadow-md lg:col-span-2">
+                                  <!-- this line takes the photo to the centre and make it little large -->
+
+                                <img src="nothing.jpg" class = "object-cover w-full h-80" alt="">
+
+                                     <h3 class="text-2xl font-bold text-gray-600</h3>
+                                     <p class = "pt-3">I am still a student looking for a part time job while at college , ideally working remotedly. 
+                                       i am skilled with javascript and python and i am trying to learn other programming languages, step by step. i try to get 
+                                       most out my time at college, and have some edge once i graduate, which is a primary reason why i seek a part time job with you.
+                                     </p>
+                                     <a href = "#" class="inline-block mt-4 px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-md shadow-md text-white font-bold text-sm ">View More</a>
+                              </div>
+                          
+
+
+
+
+
+                          <div class = " bg-white rounded-md shadow-md">
+                            <!-- this line takes the photo to the centre and make it little large -->
+
+                          <img src="project1.jpg" class = "object-cover w-80 h-80" alt="">
+
+                               <h3 class="text-2xl font-bold text-gray-800">Work Title</h3>
+                               <p class = "pt-3">IT Engineering student.Currently studying</p>
+                               <a href = "#" class="inline-block mt-4 px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-md shadow-md text-white font-bold text-sm ">View More</a>
+                        </div>
+
+
+
+                    </div>
+
+                    </div>
+
+          </section>
+
+
+
+          <!-- for the contact part -->
+
+          <section id="contact" class="pt-20 pb-36 px-8 bg-gray-50">
+              <!-- this also bring this 10% towards a centre -->
+
+              <div class="max-w-6xl mx-auto">
+
+                  <div class="text-center">
+                           <h1 class=" text-6xl font-bold text-gray-700">Contact</h1>
+                           <p class = "pt-2 text-xl">Get in touch with me</p>
+                  </div>
+
+              </div>
+
+               <div class="mt-16 relative max-w-4xl mx-auto">
+
+                   <div class="absolute z-10 inset-0 bg-gradient-to-r from-primary to-secondary shadow-lg transform -skew-y-0 sm:rotate-6 sm:rounded-lg">
+
+
+                   </div>
+
+                   <div class ="relative z-20 bg-white rounded-md shadow-md p-12">
+
+                      <form action="">
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+
+                            <input type="text" placeholder="name" class="border border-gray-200 outline-none px-4 py-2 rounded-md hover:border-gray-400 focus:border-gray-600">
+
+                            <input type="email" placeholder="email" class="border border-gray-200 outline-none px-4 py-2 rounded-md hover:border-gray-400 focus:border-gray-600">
+
+                            <input type="text" placeholder="subject" class="border border-gray-200 outline-none px-4 py-2 
+                            rounded-md hover:border-gray-400 focus:border-gray-600">
+
+                           <textarea  class="border border-gray-200 outline-none px-4 py-2 
+                           rounded-md hover:border-gray-400 focus:border-gray-600 name="" rows="5" placeholder="message"></textarea>
+                        </div>
+                             
+                                  <button class="inline-block w-auto mt-4 px-6 py-2 bg-gradient-to-r from-primary to-secondary rounded-md shadow-md text-white font-bold text-sm">
+                                     Send Message
+                                  </button>
+                      </form>
+
+                   </div>
+               </div>
+
+          </section>
+
+          <script>
+            tailwind.config = {
+              theme: {
+                extend: {
+                  colors: {
+                    clifford: '#da373d',
+                  }
+                }
+              }
+            }
+          </script>
+            <style type="text/tailwindcss">
+                @layer utilities {
+                  .content-auto {
+                    content-visibility: auto;
+                  }
+                }
+              </style>
+               <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp"></script>
+
+
+
+
+</body>
+</html>   
